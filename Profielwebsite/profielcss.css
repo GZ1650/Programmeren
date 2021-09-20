@@ -1,0 +1,39 @@
+
+body{
+	margin: 20px;
+	background: linear-gradient(-45deg,#1a1f27 50%, rgb(255, 188, 19) 50% );
+}
+
+header{
+	border: 1px solid black;
+}
+
+h1{
+	margin: 10px; 
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h2{ 
+	margin: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+	color: black;
+	font-size: large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	float: left;
+	padding: 3%;
+	border: 1px solid black;
+	width: 30%;
+}
+
+img {
+	float: right;
+	margin: 15%;
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
+	border: 3px solid rgb(255, 188, 19);
+
+  }

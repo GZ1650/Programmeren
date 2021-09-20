@@ -1,0 +1,88 @@
+header{
+    margin: auto;
+    font-size: xx-large;
+    color: white;
+    
+}
+
+body { 
+    margin:10px;
+	font-family:verdana, arial, sans-serif;
+	line-height: 1.5;
+	color: #555753; 
+    background-image: url("http://www.csszengarden.com/177/r3_zc_main_bg.jpg");
+	background-position: center;
+	padding: 0;
+    color: black;
+	}
+
+footer{
+    color:red;
+}
+    #links{
+        float:left;
+        width: 30%;
+    }
+
+    #rechts{
+        margin:10px;
+        width: 30%;
+        float:left;
+        color:white;
+}
+
+    #eerste{ 
+        height: auto;                                                                                       
+        padding: 10px 25px;                                  
+        background-color:#C6B478;              
+        color: black;
+        font-family:verdana, arial, sans-serif;
+    }
+
+    #tweede{ 
+        height: auto;                                                                                                          
+        padding: 10px 25px;                             
+        background-color:#C6B478;                 
+        color: black;
+        font-family:verdana, arial, sans-serif;
+    }
+
+    #derde{ 
+        height: auto;                                      
+        padding: 10px 25px;                             
+        background-color:#C6B478;                 
+        color: black;
+        font-family:verdana, arial, sans-serif;
+    }
+
+    #vierde{ 
+        height: auto;                                                                                               
+        padding: 10px 25px;                             
+        background-color:#C6B478;                 
+        color: black;
+        font-family:verdana, arial, sans-serif;
+    }
+
+    #vijfde{ 
+        height: auto;                                                                                                      
+        padding: 10px 25px;                             
+        background-color:#C6B478;                 
+        color: black;
+        font-family:verdana, arial, sans-serif;
+    }
+
+    #zesde{ 
+        height: auto;                                                                                                      
+        padding: 10px 25px;                             
+        background-color:#C6B478;                 
+        color: black;
+        font-family:verdana, arial, sans-serif;
+    }
+
+    #zevende{ 
+        height: auto;                                                                                                      
+        padding: 10px 25px;                             
+        background-color:#C6B478;                 
+        color: black;
+        font-family:verdana, arial, sans-serif;
+    }

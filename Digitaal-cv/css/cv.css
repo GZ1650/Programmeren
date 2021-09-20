@@ -1,0 +1,277 @@
+.hbox{ /*een box voor de header*/
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{ /*de header met Gino er in. de tekst verspreid zich wanneer de cursor over de tekst gaat. ook veranderd de cursor naar een pointer*/
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+header span{ /*de transitie is 1 seconde en linear*/
+    transition: 1s linear;
+}
+
+header:hover span:nth-child(1){ /*hier gaat elke letter 250px uit elkaar staan.*/
+    margin-right: 250px;
+}
+
+header:hover span:nth-child(2){
+    margin-right: 250px;
+}
+
+header:hover span:nth-child(3){
+    margin-right: 250px;
+}
+
+header:hover span:nth-child(3){
+    margin-right: 250px;
+}
+
+body{ /*achtergrond foto*/
+    background-image: url(wallpaper.jpg);
+}
+
+#profile { /*profiel foto met een animatie. Deze animatie duurt 25 seconden en is gemaakt met css doormiddel van @keyframes*/
+    float: left;
+    position: relative;
+    margin-left: 85%;
+	max-width: 100%;
+    margin-top: 0%;
+	height: auto;
+	border-radius: 50%;
+    animation-name: pic;
+    animation-duration: 25s;
+}
+
+@keyframes pic{ /*animatie van de profiel foto. De foto gaat 500px naar beneden en 1000px naar links.*/
+    0%   {top: 0px; right: 0px;}
+    25%  {top: 500px; right: 0%;}
+    50%  {top: 0px; right: 0px;}
+    75%  {top: 0px; right: 1000px;}
+    100% {top: 0px; right: 0px;}
+}
+
+.box1{ /*alle instellingen voor box1*/
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 1%;
+    margin-top: 0%;
+    font-family: sans-serif;
+}
+
+.button{ /*alle button instellingen. opacity is vervagen. de cursor verandert naar een pointer. de transitie duurt 0.3 seconden*/
+    background-color: black;
+    opacity: 0.8;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.button:hover { /*hier verandert de button als je er over heen hovert*/
+    background-color: rgb(177, 177, 177);
+    color: black;
+}
+
+.box234{ /*box instellingen van 234*/
+    width: 37%;
+    float: left;
+    margin-top: 0%;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.box2{
+    margin-bottom: 40px;
+}
+
+.box3{
+    margin-bottom: 30px;
+}
+
+.contact { /*als je over de text contact hovert krijgje een mail te zien.*/
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.contact .contacttext { /*als je over de text contact hovert krijgje een mail te zien.*/
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 200%;
+  }
+  
+.contact:hover .contacttext { /*als je over de text contact hovert krijgje een mail te zien.*/
+    visibility: visible;
+  }
+
+#under{
+    margin-top: 50%;
+    color: rgb(105, 105, 105);
+    font-size: small;
+}
+
+#start{
+    width: 800px;
+    height: 500px;
+    border-radius: 100px;
+    margin-left: 2.5%;
+}
+
+.skill{
+    color: black;
+    width: 500px;
+}
+
+.skill li {
+    list-style: none;
+    margin: 30px 0;
+}
+
+.bar{ /*de skill bar met bewegende percentages*/
+    display: block;
+    height: 5px;
+    background: white;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+}
+
+.bar span { /*de kleur van elke bar is groen*/
+    float: left;
+    height: 5px;
+    background: forestgreen;
+}
+
+.html{ /*de html bar beweegt 10 seconden*/
+    width: 30%;
+    animation: html 10s;
+}
+
+@keyframes html{ /*de html bar gaat eerst naar 100% daarna naar 30%*/
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+.css{
+    width: 40%;
+    animation: css 12s;
+}
+
+@keyframes css{  /*de bar gaat eerst naar 100% daarna naar 40%*/
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+.js{
+    width: 15%;
+    animation: js 14s;
+}
+
+@keyframes js{  /*de bar gaat eerst naar 100% daarna naar 15%*/
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+
+.images{
+    margin-right: 10%;
+    position: absolute;
+    left: 25%;
+    width: auto;
+    top: 26%;
+}
+
+#foto1{
+    width: 800px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#foto2{
+    width: 800px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#foto3{
+    width: 800px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#foto4{
+    width: 800px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#foto5{
+    width: 800px;
+    height: 500px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{  /*de scrollbar heb ik custom gemaakt. De achtergrond kleur is zwart. de slidebar is een grijse kleur*/
+    background: black;
+    opacity: 0.8;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(177, 177, 177);
+    border-radius: 50px;
+}
