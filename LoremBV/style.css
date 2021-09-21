@@ -3,11 +3,15 @@ body{
     width: 800px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
+    background-color: white;
+}
+.back{
     background-color: lightsteelblue;
 }
 
 .top{
     text-align: center;
+    background-color: lightsteelblue;
 }
 
 ul{
@@ -38,8 +42,13 @@ li a:hover{
 }
 
 .box{  
+    height: 125px;
     border: 1px solid darkblue;
     margin: 5px;
+}
+
+.box:hover{
+    background-color: darkcyan;
 }
 
 .text{
@@ -49,9 +58,33 @@ li a:hover{
 }
 
 img{
-    text-align: right;
+    position: absolute;
+    left: 68%;
     width: 120px;
     height: 120px;
-    margin-left: 660px;
-    margin-top: -50%;
+}
+
+#desk1{
+    position: absolute;
+    top: 18%;
+}
+
+#house1{
+    position: absolute;
+    top: 35.5%;
+}
+
+#outside1{
+    position: absolute;
+    top: 53%;
+}
+
+#desk2{
+    position: absolute;
+    top: 70.5%;
+}
+
+#outside2{
+    position: absolute;
+    top: 88%;
 }
